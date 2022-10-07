@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+body {
+    /* background-color: #f1f1f1; */
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 10px;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 15px 25px 0px;
+    color: black;
+    margin: 2px;
+}
+.header {
+    min-height: 150px;
+    margin: 2px;
+}
+
+#top-image {
+    width: 100%;
+    max-height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    margin: 2px;
+}
+.footer {
+    min-height: 150px;
+    margin: 2px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+table {
+    padding: 20px;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+#table-tittle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div-zap {
+    display: flex;
+}
+
+#zap {
+    max-width: 30px;
+    max-height: 30px;
+    padding: 10px;
+}
+
+#contato-zap {
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#contato-zap:hover {
+    font-weight: bold;
+    vertical-align: middle;
+}
